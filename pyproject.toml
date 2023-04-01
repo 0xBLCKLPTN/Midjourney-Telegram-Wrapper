@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "midjourney-telegram-wrapper"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Ermolaev <blcklptn@icloud.com>"]
+readme = "README.md"
+packages = [{include = "midjourney_telegram_wrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.8.3"
+chromedriver-autoinstaller = "^0.4.0"
+python-dotenv = "^1.0.0"
+pydantic = "^1.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
